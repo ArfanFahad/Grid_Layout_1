@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 40px 40px;
+    grid-gap: 5px;
+    padding: 5px;
+    color: white;
+    font-family: 'Cascadia Code';
+}
+
+.a {
+    background-color: gray;
+    border-radius: 2px;
+    padding: 10px;
+    grid-column: 1 / span 2;
+}
+
+.b {
+    background-color: gray;
+    border-radius: 2px;
+    padding: 10px;
+    grid-row: span 2;
+}
+
+.c {
+    background-color: gray;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.d {
+    background-color: gray;
+    border-radius: 2px;
+    padding: 10px;
+}
